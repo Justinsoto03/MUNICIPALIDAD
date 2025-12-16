@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcionarios - Municipalidad</title>
+    <link rel="icon" type="image/png" href="imagenes/logoo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        .card-body img {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card-body img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-primary" href="index.html">
+                <img src="imagenes/sl.png" alt="Logo" width="40" class="me-2">
+                Municipalidad de Villa el Salvador
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNav">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="municipalidadDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Municipalidad
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="municipalidadDropdown">
+                            <li><a class="dropdown-item" href="alcalde.html">Alcalde</a></li>
+                            <li><a class="dropdown-item" href="https://www.gob.pe/institucion/munivillaelsalvador/sedes" target="_blank">Sedes</a></li>
+                            <li><a class="dropdown-item" href="funcionarios.html">Funcionarios</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="#">Gestión</a></li>
+                    <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="tramitesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Trámites y Servicios
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="tramitesDropdown">
+                            <li><a class="dropdown-item" href="https://facilita.gob.pe/t/1666" target="_blank">✉️ Mesa de Partes Virtual</a></li>
+                            <li><a class="dropdown-item" href="https://reclamos.servicios.gob.pe/?institution_id=151" target="_blank">📖 Libro de Reclamaciones</a></li>
+                            <li><a class="dropdown-item" href="https://estadodetramite.munives.gob.pe/" target="_blank">📋 Seguimiento de Trámites</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <h1 class="text-center fw-bold display-4 text-primary">Funcionarios y Regidores</h1>
+        <p class="text-center lead">Conoce a los líderes y directores que trabajan en la Municipalidad de Villa El Salvador.</p>
+
+        <div class="row mt-5 g-4">
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <div class="card-body">
+                        <img src="imagenes/alc.jpg" alt="Foto de Guido Iñigo Peralta" class="img-fluid rounded-circle mb-3 border border-2 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+                        <h5 class="card-title fw-bold text-primary">Guido Iñigo Peralta</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Alcalde</h6>
+                        <p class="card-text">Líder principal de la gestión municipal, comprometido con el desarrollo y progreso del distrito.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <div class="card-body">
+                        <img src="imagenes/rogger_fun.jpg" alt="Foto de Rogger Arturo Dasso Celis" class="img-fluid rounded-circle mb-3 border border-2 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+                        <h5 class="card-title fw-bold text-primary">Rogger Arturo Dasso Celis</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Gerente Municipal</h6>
+                        <p class="card-text">Profesional a cargo de la gestión administrativa y operativa de la municipalidad.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <div class="card-body">
+                        <img src="imagenes/ZANABRIA.jpg" alt="Foto de Marina Luz Zanabria Limaco" class="img-fluid rounded-circle mb-3 border border-2 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+                        <h5 class="card-title fw-bold text-primary">Marina Luz Zanabria Limaco</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Gerente de Oficina General de Administración</h6>
+                        <p class="card-text">Responsable de supervisar los procesos de administración, logística y recursos humanos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <div class="card-body">
+                        <img src="imagenes/KATERIN.jpg" alt="Foto de Catherine Angela Villanes Villa" class="img-fluid rounded-circle mb-3 border border-2 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+                        <h5 class="card-title fw-bold text-primary">Catherine Angela Villanes Villa</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Gerente de Desarrollo Económico y Licencias</h6>
+                        <p class="card-text">Encargada de promover el crecimiento económico y facilitar los procesos de licencias en el distrito.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <div class="card-body">
+                        <img src="imagenes/milagros.jpg" alt="Foto de Nelly Milagros Huamani Candia" class="img-fluid rounded-circle mb-3 border border-2 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+                        <h5 class="card-title fw-bold text-primary">Nelly Milagros Huamani Candia</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Gerente de Desarrollo e Inclusión Social</h6>
+                        <p class="card-text">Lidera las iniciativas para el bienestar social y la inclusión de grupos vulnerables.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <div class="card-body">
+                        <img src="imagenes/manuel.jpg" alt="Foto de Manuel Juan Ocampo Rodriguez" class="img-fluid rounded-circle mb-3 border border-2 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+                        <h5 class="card-title fw-bold text-primary">Manuel Juan Ocampo Rodriguez</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Gerente de Procuraduría Pública Municipal</h6>
+                        <p class="card-text">Responsable de defender los intereses y derechos legales de la municipalidad.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <div class="card-body">
+                        <img src="imagenes/cynthia.jpg" alt="Foto de Cynthia Lindsay Ccanto Velarde" class="img-fluid rounded-circle mb-3 border border-2 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+                        <h5 class="card-title fw-bold text-primary">Cynthia Lindsay Ccanto Velarde</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Gerente de la Oficina de Planeamiento y Presupuesto</h6>
+                        <p class="card-text">Especialista en planificación estratégica y manejo del presupuesto municipal.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 mt-5">
+                <h2 class="text-center fw-bold display-5 text-primary">Regidores</h2>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <div class="card-body">
+                        <img src="imagenes/OLINDA.jpg" alt="Foto de Olinda Evelyn Chávez Hernández" class="img-fluid rounded-circle mb-3 border border-2 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+                        <h5 class="card-title fw-bold text-primary">Olinda Evelyn Chávez Hernández</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Regidora</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <div class="card-body">
+                        <img src="imagenes/RAFAEL.png" alt="Foto de Rafael Hernan Cumpen Bonifaz" class="img-fluid rounded-circle mb-3 border border-2 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+                        <h5 class="card-title fw-bold text-primary">Rafael Hernan Cumpen Bonifaz</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Regidor</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <div class="card-body">
+                        <img src="imagenes/ANA.jpg" alt="Foto de Ana Lourdes Calvo Mori" class="img-fluid rounded-circle mb-3 border border-2 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+                        <h5 class="card-title fw-bold text-primary">Ana Lourdes Calvo Mori</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Regidora</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <div class="card-body">
+                        <img src="imagenes/RAFAEL.png" alt="Foto de Briyan Anthony Machaca Apaza" class="img-fluid rounded-circle mb-3 border border-2 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+                        <h5 class="card-title fw-bold text-primary">Briyan Anthony Machaca Apaza</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Regidor</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <div class="card-body">
+                        <img src="imagenes/LEYLA.jpg" alt="Foto de Leyla Edith Mejia Loayza" class="img-fluid rounded-circle mb-3 border border-2 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+                        <h5 class="card-title fw-bold text-primary">Leyla Edith Mejia Loayza</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Regidora</h6>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <div class="card-body">
+                        <img src="imagenes/LONI.jpg" alt="Foto de Loni Oliver Rosales Palomino" class="img-fluid rounded-circle mb-3 border border-2 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+                        <h5 class="card-title fw-bold text-primary">Loni Oliver Rosales Palomino</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Regidor</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <div class="card-body">
+                        <img src="imagenes/ROSARIO.jpg" alt="Foto de Rosario Ramos Ticona" class="img-fluid rounded-circle mb-3 border border-2 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+                        <h5 class="card-title fw-bold text-primary">Rosario Ramos Ticona</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Regidora</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <div class="card-body">
+                        <img src="imagenes/JORDY.jpg" alt="Foto de Jordy Gabriel Zevallos Ruiz" class="img-fluid rounded-circle mb-3 border border-2 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+                        <h5 class="card-title fw-bold text-primary">Jordy Gabriel Zevallos Ruiz</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Regidor</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <div class="card-body">
+                        <img src="imagenes/MARIA DEL CI.jpg" alt="Foto de Maria Del Cielo Mozo Narvaez" class="img-fluid rounded-circle mb-3 border border-2 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+                        <h5 class="card-title fw-bold text-primary">Maria Del Cielo Mozo Narvaez</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Regidora</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <div class="card-body">
+                        <img src="imagenes/RAFAEL.png" alt="Foto de Wilmer Isaias Gonzales Yalico" class="img-fluid rounded-circle mb-3 border border-2 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+                        <h5 class="card-title fw-bold text-primary">Wilmer Isaias Gonzales Yalico</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Regidor</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <div class="card-body">
+                        <img src="imagenes/MARGOT.jpg" alt="Foto de Margot Angelica Barzola Chavez" class="img-fluid rounded-circle mb-3 border border-2 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+                        <h5 class="card-title fw-bold text-primary">Margot Angelica Barzola Chavez</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Regidora</h6>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <div class="card-body">
+                        <img src="imagenes/RAFAEL.png" alt="Foto de Luis Angel Peña Zavala" class="img-fluid rounded-circle mb-3 border border-2 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+                        <h5 class="card-title fw-bold text-primary">Luis Angel Peña Zavala</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Regidor</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <div class="card-body">
+                        <img src="imagenes/MAGDA.jpg" alt="Foto de Magda Reyna Almenara Huayta De Gutierrez" class="img-fluid rounded-circle mb-3 border border-2 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+                        <h5 class="card-title fw-bold text-primary">Magda Reyna Almenara Huayta De Gutierrez</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Regidora</h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="text-center text-white p-3 bg-primary">
+        JUSTIN © 2025 Municipalidad de Villa el Salvador - Todos los derechos reservados
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

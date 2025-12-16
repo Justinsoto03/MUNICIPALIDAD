@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alcalde - Municipalidad</title>
+    <link rel="icon" type="image/png" href="imagenes/logoo.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-primary" href="index.html">
+                <img src="imagenes/sl.png" alt="Logo" width="40" class="me-2">
+                Municipalidad de Villa el Salvador
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNav">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="municipalidadDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Municipalidad
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="municipalidadDropdown">
+                            <li><a class="dropdown-item" href="alcalde.html">Alcalde</a></li>
+                            <li><a class="dropdown-item" href="#">Sedes</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="tramitesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Trámites y Servicios
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="tramitesDropdown">
+                            <li><a class="dropdown-item" href="https://facilita.gob.pe/t/1666" target="_blank">Mesa de Partes Virtual</a></li>
+                            <li><a class="dropdown-item" href="https://reclamos.servicios.gob.pe/?institution_id=151" target="_blank">Libro de Reclamaciones</a></li>
+                            <li><a class="dropdown-item" href="https://estadodetramite.munives.gob.pe/" target="_blank"> Seguimiento de Trámites</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <h1 class="text-center fw-bold display-4 text-primary">Biografía del Alcalde</h1>
+        <p class="text-center lead">Conoce la trayectoria y el mensaje de Guido Iñigo Peralta.</p>
+        
+        <div class="row mt-5 d-flex align-items-center">
+            <div class="col-md-5 text-center mb-4 mb-md-0">
+                <img src="imagenes/alc.jpg" alt="Foto del Alcalde Guido Iñigo Peralta" class="img-fluid rounded-circle shadow-lg border border-5 border-primary">
+            </div>
+            <div class="col-md-7">
+                <h2 class="fw-bold text-primary">Guido Iñigo Peralta</h2>
+                <h4 class="text-muted fst-italic">Alcalde de Villa El Salvador</h4>
+                <p class="mt-4">
+                    Guido Iñigo Peralta es un administrador y político peruano. Ejerce el cargo de alcalde del distrito de Villa El Salvador desde el 1 de enero de 2023. Su visión está centrada en la modernización de los servicios y el desarrollo sostenible de la comunidad.
+                </p>
+                <p>
+                    Con una destacada trayectoria en la política local, ha impulsado proyectos clave en diversas áreas, como la seguridad ciudadana y la mejora de la infraestructura vial. Su compromiso es trabajar de la mano con los vecinos para construir una ciudad más segura y próspera.
+                </p>
+            </div>
+        </div>
+
+        <hr class="my-5">
+
+        <h3 class="text-center fw-bold text-primary">Mensaje del Alcalde</h3>
+        <blockquote class="blockquote text-center mt-4 p-4 border-start border-5 border-primary bg-light rounded">
+            <p>"Nuestra labor es servir a la comunidad con transparencia y dedicación. Juntos, haremos de Villa El Salvador un lugar mejor para vivir y crecer."</p>
+            <footer class="blockquote-footer mt-2 text-muted"><strong>- Guido Iñigo Peralta</strong></footer>
+        </blockquote>
+    </main>
+
+    <footer class="text-center text-white p-3 bg-primary">
+        JUSTIN © 2025 Municipalidad de Villa el Salvador - Todos los derechos reservados
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Municipalidad</title>
+    
+    <link rel="icon" type="image/png" href="imagenes/logoo.png">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-primary" href="index.html">
+                <img src="imagenes/sl.png" alt="Logo" width="40" class="me-2">
+                <div class="d-flex flex-column align-items-start">
+                    <span class="navbar-title">MUNICIPALIDAD</span>
+                    <span class="navbar-subtitle">de Villa el Salvador</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNav">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="municipalidadDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Municipalidad
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="municipalidadDropdown">
+                            <li><a class="dropdown-item" href="alcalde.html">Alcalde</a></li>
+                            <li><a class="dropdown-item" href="https://www.gob.pe/institucion/munivillaelsalvador/sedes" target="_blank">Sedes</a></li>
+                            <li><a class="dropdown-item" href="funcionarios.html">Funcionarios</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="tramitesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Trámites y Servicios
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="tramitesDropdown">
+                            <li><a class="dropdown-item" href="https://facilita.gob.pe/t/1666" target="_blank">Mesa de Partes Virtual</a></li>
+                            <li><a class="dropdown-item" href="https://reclamos.servicios.gob.pe/?institution_id=151" target="_blank">Libro de Reclamaciones</a></li>
+                            <li><a class="dropdown-item" href="https://estadodetramite.munives.gob.pe/" target="_blank">Seguimiento de Trámites</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselMunicipalidad" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="https://facilita.gob.pe/t/1666" target="_blank" class="d-block w-100 text-decoration-none">
+                    <img src="https://elcomercio.pe/resizer/NNHwx4ClsqPvQDyPVXCURGryPc8=/980x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/SHMAAUKGPJFO3DY7O6AO6TQKOY.jpg" class="d-block w-100 img-carousel" alt="Mesa de Partes">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="fw-bold">Mesa de Partes Virtual</h2>
+                        <p>Presenta tus trámites de manera virtual.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://www.gob.pe/47253-municipalidad-distrital-de-villa-el-salvador-convocatorias-de-trabajo-municipales-cas" target="_blank" class="d-block w-100 text-decoration-none">
+                    <img src="https://www.sat.gob.pe/websitev9/Portals/0/Noticias/Imagenes/2020/VENCIMIENTO%201.jpg?ver=2020-01-07-125135-550" class="d-block w-100 img-carousel" alt="Convocatorias de Empleo">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="fw-bold">Trabaja con Nosotros</h2>
+                        <p>Encuentra oportunidades de trabajo en la municipalidad.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="noticias.html" class="d-block w-100 text-decoration-none">
+                    <img src="https://pbs.twimg.com/media/FR9go_qXMAEkc04?format=jpg&name=large" class="d-block w-100 img-carousel" alt="Noticias">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="fw-bold">Noticias y Comunicados</h2>
+                        <p>Entérate de lo último de tu municipalidad.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMunicipalidad" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselMunicipalidad" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <section class="container my-5">
+        <div class="row text-center g-3">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <a href="https://estadodetramite.munives.gob.pe/" target="_blank" class="text-decoration-none">
+                    <div class="card p-4 option-card fw-bold"> Trámites </div>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <a href="https://www.gob.pe/47253-municipalidad-distrital-de-villa-el-salvador-convocatorias-de-trabajo-municipales-cas" target="_blank" class="text-decoration-none">
+                    <div class="card p-4 option-card fw-bold">Trabaja con Nosotros</div>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <a href="noticias.html" class="text-decoration-none">
+                    <div class="card p-4 option-card fw-bold"> Noticias</div>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <a href="https://www.gob.pe/institucion/munivillaelsalvador/informes-publicaciones/tipos/58-formato" target="_blank" class="text-decoration-none">
+                    <div class="card p-4 option-card fw-bold"> Documento</div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center text-white p-3 bg-primary">
+        JUSTIN © 2025 Municipalidad de Villa el Salvador - Todos los derechos reservados
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias y Campañas - Municipalidad</title>
+    <link rel="icon" type="image/png" href="imagenes/logoo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-primary" href="index.html">
+                <img src="imagenes/sl.png" alt="Logo" width="40" class="me-2">
+                <div class="d-flex flex-column align-items-start">
+                    <span class="navbar-title">MUNICIPALIDAD</span>
+                    <span class="navbar-subtitle">de Villa el Salvador</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNav">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="municipalidadDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Municipalidad
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="municipalidadDropdown">
+                            <li><a class="dropdown-item" href="alcalde.html">Alcalde</a></li>
+                            <li><a class="dropdown-item" href="https://www.gob.pe/institucion/munivillaelsalvador/sedes" target="_blank">Sedes</a></li>
+                            <li><a class="dropdown-item" href="funcionarios.html">Funcionarios</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link active" href="noticias.html">Noticias</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="tramitesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Trámites y Servicios
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="tramitesDropdown">
+                            <li><a class="dropdown-item" href="https://facilita.gob.pe/t/1666" target="_blank">Mesa de Partes Virtual</a></li>
+                            <li><a class="dropdown-item" href="https://reclamos.servicios.gob.pe/?institution_id=151" target="_blank">Libro de Reclamaciones</a></li>
+                            <li><a class="dropdown-item" href="https://estadodetramite.munives.gob.pe/" target="_blank">Seguimiento de Trámites</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container my-5">
+        <h1 class="text-center fw-bold display-4 text-primary mb-4">Últimas Noticias</h1>
+        <div class="row g-4 mb-5">
+            <div class="col-md-6 col-lg-4">
+                <div class="card news-item h-100 shadow-sm">
+                    <img src="imagenes/auidiencia.jpg" class="card-img-top" alt="Noticia 1">
+                    <div class="card-body">
+                        <small class="text-muted">21 de agosto de 2025</small>
+                        <h5 class="card-title mt-2 fw-bold">Audiencia Pública 2025 en Villa El Salvador.</h5>
+                        <p class="card-text">Se llevó a cabo la Audiencia Pública 2025 en el Palacio de la Juventud, donde se presentaron exposiciones de los logros, avances y dificultades de la gestión Municipal, Enmarcados en los temas a tratar señalados en el artículo 13° de la Ordenanza N° 507 - MVES, que aprueba el reglamento que regula la realización de las audiencias públicas de rendición de cuentas de la Municipalidad Distrital de Villa El Salvador y se escucharon los aportes de vecinos y vecinas del distrito.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card news-item h-100 shadow-sm">
+                    <img src="imagenes/herido.jpg" class="card-img-top" alt="Noticia 2">
+                    <div class="card-body">
+                        <small class="text-muted"></small>
+                        <h5 class="card-title mt-2 fw-bold">🚑 Ambulancia Municipal atiende a vecino herido en accidente de transito en AV. Pastor Sevilla con AV. Cesar Vallejo.</h5>
+                        <p class="card-text">urante el patrullaje municipal, se atendió un accidente de tránsito ocurrido en el cruce de la Av. Pastor Sevilla con la Av. César Vallejo, donde estuvo involucrada una moto lineal y un vehículo particular.
+                        🚑 Personal paramédico de la Ambulancia Municipal brindó atención inmediata al conductor de la moto, quien fue trasladado al hospital para la atención correspondiente..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card news-item h-100 shadow-sm">
+                    <img src="imagenes/transpor.png" class="card-img-top" alt="Noticia 3">
+                    <div class="card-body">
+                        <small class="text-muted"></small>
+                        <h5 class="card-title mt-2 fw-bold">Convocatoria de Ingeniero de Transporte</h5>
+                        <p class="card-text">-Ofrecemos remuneración mensual de s/8000.00</p>
+                        <p class="card-text">-Designación bajo el régimen laboral del D.L. 1057- CAS.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="text-center fw-bold display-4 text-primary mb-4 mt-5">Campañas y Eventos</h1>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="card news-item h-100 shadow-sm">
+                    <img src="imagenes/recicla.jpeg" class="card-img-top" alt="Campaña 1">
+                    <div class="card-body">
+                        <small class="text-muted">Campaña Permanente</small>
+                        <h5 class="card-title mt-2 fw-bold">Campaña de reciclaje "VES Recicla y Gana".</h5>
+                        <p class="card-text">Únete a nuestra campaña para un futuro más sostenible. ¡Recicla tus residuos y participa en sorteos mensuales!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card news-item h-100 shadow-sm">
+                    <img src="imagenes/eneven.jpg" class="card-img-top" alt="Campaña 2">
+                    <div class="card-body">
+                        <small class="text-muted"></small>
+                        <h5 class="card-title mt-2 fw-bold">Audiencia Pública 2025 - Rendición de cuentas</h5>
+                        <p class="card-text">Exposición de los logros, avances y dificultades de la gestión Municipal, Enmarcados en los temas a tratar señalados en el artículo 13° de la Ordenanza N° 507 - MVES, que aprueba el reglamento que regula la realización de las audiencias públicas de rendición de cuentas de la Municipalidad Distrital de Villa El Salvador.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card news-item h-100 shadow-sm">
+                    <img src="imagenes/prosu.jpg" class="card-img-top" alt="Campaña 3">
+                    <div class="card-body">
+                        <small class="text-muted"></small>
+                        <h5 class="card-title mt-2 fw-bold">Presupuesto Participativo Específico 2026 "Niñas, Niños y Adolescentes".</h5>
+                        <p class="card-text">El Presupuesto Participativo Específico 2026 "Niñas, Niños y Adolescentes" toma en cuenta las necesidades de la ciudadanía en sus diferentes etapas de vida, considerando que Villa El Salvador tiene una alta proporción de niños, niñas, adolescentes y jóvenes que progresivamente está incrementando.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="text-center text-white p-3 bg-primary">
+        JUSTIN © 2025 Municipalidad de Villa el Salvador - Todos los derechos reservados
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
